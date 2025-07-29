@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Semester {
-    private String term;                // e.g. “Fall 2025”
+    private String term;          
     private List<Course> courses;
 
     public Semester(String term) {
