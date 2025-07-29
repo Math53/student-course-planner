@@ -21,7 +21,7 @@ public class FileManager {
     public static Semester loadSemester() {
         File file = new File(FILE_NAME);
         if (!file.exists()) {
-            System.out.println("📂 No saved planner found. Starting fresh.");
+            System.out.println("No saved planner found. Starting fresh.");
             return new Semester("Untitled Semester");
         }
 
